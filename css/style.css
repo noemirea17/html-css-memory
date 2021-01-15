@@ -55,13 +55,28 @@ footer span {
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
-  content: "Air Baloon";
 
 
 }
 
+.card .title {
+  height: 200px;
+  width: 200px;
+  display: none;
+}
+
+
 h2 {
   position: absolute;
-  bottom: 15px;
-  left: 50px;
+  bottom: 10px;
+  left: 45px;
+
+}
+
+.card:hover:not(.special) .title {
+  display: inline;
+}
+
+footer {
+  text-align: center;
 }
