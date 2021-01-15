@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00bcd469;
+}
+
+div.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header > h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 70px;
+  color: white;
+}
+
+.cards {
+  width: 100%;
+}
+
+.row {
+  width: 90%;
+}
+
+.row, .cards {
+  margin: 0 auto;
+}
+
+.card {
+  display: inline-block;
+  background-image: url("../img/pattern.png");
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background-size: 90%;
+  border-radius: 10px;
+}
+
+footer span {
+  font-size: 20px;
+}
