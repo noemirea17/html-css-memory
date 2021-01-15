@@ -34,14 +34,34 @@ header > h1 {
 
 .card {
   display: inline-block;
-  background-image: url("../img/pattern.png");
+  background: white;
   height: 200px;
   width: 200px;
   margin: 10px;
   background-size: 90%;
   border-radius: 10px;
+  position: relative;
+}
+.card:not(.special){
+  background-image: url("../img/pattern.png");
 }
 
 footer span {
   font-size: 20px;
+}
+
+.card:hover:not(.special), .special {
+  background-image: url("../img/noun_air_balloon_3134741.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "Air Baloon";
+
+
+}
+
+h2 {
+  position: absolute;
+  bottom: 15px;
+  left: 50px;
 }
