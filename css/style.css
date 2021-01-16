@@ -21,10 +21,6 @@ header > h1 {
   color: white;
 }
 
-.cards {
-  width: 100%;
-}
-
 .row {
   width: 90%;
 }
@@ -34,6 +30,7 @@ header > h1 {
 }
 
 .card {
+  position: relative;
   display: inline-block;
   background: white;
   height: 200px;
@@ -41,7 +38,6 @@ header > h1 {
   margin: 10px;
   background-size: 90%;
   border-radius: 10px;
-  position: relative;
 }
 .card:not(.special){
   background-image: url("../img/pattern.png");
@@ -74,7 +70,7 @@ h2 {
 .first > .card:hover:first-child,
 .second > .card:nth-of-type(2) {
   background-image: url("../img/noun_air_balloon_3134741.png");
-  color: violet;
+  color: #a43ab7;
 }
 
 .first > .card:hover:nth-of-type(2),
